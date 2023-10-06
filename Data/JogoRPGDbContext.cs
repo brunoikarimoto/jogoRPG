@@ -17,6 +17,10 @@ public class JogoRPGDbContext : DbContext
 
     public DbSet<Map> Map {get; set;}
 
+    public DbSet<Boss> Boss {get; set;}
+
+    public DbSet<Raid> Raid {get; set;}
+
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         optionsBuilder.UseSqlite("DataSource=jogoRPG.db;Cache=Shared");
