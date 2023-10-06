@@ -6030,19 +6030,19 @@
     ]
   },
   "packageFolders": {
-    "/home/bruno/.nuget/packages/": {}
+    "C:\\Users\\paulinhoonfire\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/bruno/facul_up/webapi/jogoRPG/jogoRPG.csproj",
+      "projectUniqueName": "C:\\Users\\paulinhoonfire\\Documents\\GitHub\\jogoRPG1\\jogoRPG\\jogoRPG.csproj",
       "projectName": "jogoRPG",
-      "projectPath": "/home/bruno/facul_up/webapi/jogoRPG/jogoRPG.csproj",
-      "packagesPath": "/home/bruno/.nuget/packages/",
-      "outputPath": "/home/bruno/facul_up/webapi/jogoRPG/obj/",
+      "projectPath": "C:\\Users\\paulinhoonfire\\Documents\\GitHub\\jogoRPG1\\jogoRPG\\jogoRPG.csproj",
+      "packagesPath": "C:\\Users\\paulinhoonfire\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\paulinhoonfire\\Documents\\GitHub\\jogoRPG1\\jogoRPG\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/bruno/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\paulinhoonfire\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -6116,7 +6116,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.111/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
