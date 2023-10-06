@@ -58,7 +58,7 @@ public class MapController : ControllerBase
 
     [HttpPatch]
     [Route("atualizar/{nome}")]
-    public async Task<ActionResult> AtualizarMap(string nome, [FromForm] string clima = null, [FromForm] string bioma = null)
+    public async Task<ActionResult> AtualizarMap(string nome, [FromForm] string clima, [FromForm] string bioma)
     {
         if(_context is null) return NotFound();
         if(_context.Map is null) return NotFound();

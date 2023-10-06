@@ -58,7 +58,7 @@ public class ItemController : ControllerBase
 
     [HttpPatch]
     [Route("atualizar/{nome}")]
-    public async Task<ActionResult> AtualizarItem(string nome, [FromForm] string raridade = null, [FromForm] int quantidade = -1, [FromForm] string tipo = null)
+    public async Task<ActionResult> AtualizarItem(string nome, [FromForm] string raridade, [FromForm] int quantidade = -1, [FromForm] string tipo = null)
     {
         if(_context is null) return NotFound();
         if(_context.Item is null) return NotFound();

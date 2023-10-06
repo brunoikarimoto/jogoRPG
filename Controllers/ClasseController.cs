@@ -58,7 +58,7 @@ public class ClasseController : ControllerBase
 
     [HttpPatch]
     [Route("atualizar/{nome}")]
-    public async Task<ActionResult> AtualizarClasse(string nome, [FromForm] string descricao = null)
+    public async Task<ActionResult> AtualizarClasse(string nome, [FromForm] string descricao)
     {
         if(_context is null) return NotFound();
         if(_context.Classe is null) return NotFound();

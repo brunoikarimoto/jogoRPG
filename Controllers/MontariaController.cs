@@ -58,7 +58,7 @@ public class MontariaController : ControllerBase
 
     [HttpPatch]
     [Route("atualizar/{nome}")]
-    public async Task<ActionResult> AtualizarMontaria(string nome, [FromForm] string raridade = null, [FromForm] int velocidade = 0, [FromForm] string tipo = null)
+    public async Task<ActionResult> AtualizarMontaria(string nome, [FromForm] string raridade, [FromForm] int velocidade = 0, [FromForm] string tipo = null)
     {
         if(_context is null) return NotFound();
         if(_context.Montaria is null) return NotFound();
