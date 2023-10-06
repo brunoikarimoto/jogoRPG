@@ -7,5 +7,4 @@ public class Classe
     public string Nome {get; set;}
 
     public string descricao {get; set;}
-
 }

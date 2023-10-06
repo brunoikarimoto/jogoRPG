@@ -48,7 +48,7 @@ public class ItemController : ControllerBase
 
         var itemTemp = await _context.Item.FindAsync(nome);
 
-        if(itemtTemp is null) return NotFound();
+        if(itemTemp is null) return NotFound();
 
         _context.Remove(itemTemp);
         await _context.SaveChangesAsync();
@@ -58,7 +58,7 @@ public class ItemController : ControllerBase
 
     [HttpPatch]
     [Route("atualizar/{nome}")]
-    public async Task<ActionResult> AtualizarItem(string nome, [FromForm] string raridade = null, [FromForm] int quantidade = -1, [FromForm] string tipo = null, [FromForm])
+    public async Task<ActionResult> AtualizarItem(string nome, [FromForm] string raridade = null, [FromForm] int quantidade = -1, [FromForm] string tipo = null)
     {
         if(_context is null) return NotFound();
         if(_context.Item is null) return NotFound();
@@ -67,9 +67,9 @@ public class ItemController : ControllerBase
 
         if(itemTemp is null) return NotFound();
 
-        if(raridade is not null) itemTemp.Raridade = raridade;
-        if(quantidade >= 0) itemTemp.MinimoQuantidade = quantidade;
-        if(tipo is not null) itemTemp.Tipo = tipo;
+        if(raridade is not null) itemTemp.raridade = raridade;
+        if(quantidade >= 0) itemTemp.quantidade = quantidade;
+        if(tipo is not null) itemTemp.tipo = tipo;
 
         await _context.SaveChangesAsync();
 

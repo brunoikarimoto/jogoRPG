@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BVlwxLLXqf8Xlu0b7NnwLSNw/f1XTkCMHr0UMdp25YFkNywGudBe11lzcw4mq+x7GTmPiGqRYcDa3HMgonZjYA==",
+  "dgSpecHash": "9fxVD9qOYAALS95DjOEjCV8XkdGQpfpJwR7sXw/8nJypb4Q2emBkoR4qwTx7zi0fEdURp4ig0RlmvXJeB4KY8w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\paulinhoonfire\\Documents\\GitHub\\jogoRPG1\\jogoRPG\\jogoRPG.csproj",
+  "projectFilePath": "C:\\Users\\paulinhoonfire\\Documents\\GitHub\\jogoRPG\\jogoRPG.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\paulinhoonfire\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\paulinhoonfire\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.11\\microsoft.aspnetcore.openapi.7.0.11.nupkg.sha512",

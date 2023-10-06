@@ -6035,11 +6035,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\paulinhoonfire\\Documents\\GitHub\\jogoRPG1\\jogoRPG\\jogoRPG.csproj",
+      "projectUniqueName": "C:\\Users\\paulinhoonfire\\Documents\\GitHub\\jogoRPG\\jogoRPG.csproj",
       "projectName": "jogoRPG",
-      "projectPath": "C:\\Users\\paulinhoonfire\\Documents\\GitHub\\jogoRPG1\\jogoRPG\\jogoRPG.csproj",
+      "projectPath": "C:\\Users\\paulinhoonfire\\Documents\\GitHub\\jogoRPG\\jogoRPG.csproj",
       "packagesPath": "C:\\Users\\paulinhoonfire\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\paulinhoonfire\\Documents\\GitHub\\jogoRPG1\\jogoRPG\\obj\\",
+      "outputPath": "C:\\Users\\paulinhoonfire\\Documents\\GitHub\\jogoRPG\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\paulinhoonfire\\AppData\\Roaming\\NuGet\\NuGet.Config"

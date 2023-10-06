@@ -67,9 +67,9 @@ public class MontariaController : ControllerBase
 
         if(montariaTemp is null) return NotFound();
 
-        if(raridade is not null) montariaTemp.Raridade = raridade;
-        if(velocidade >= 0) montariaTemp.MinimoVelocidade = velocidade;
-        if(tipo is not null) montariaTemp.Tipo = tipo;
+        if(raridade is not null) montariaTemp.raridade = raridade;
+        if(velocidade >= 0) montariaTemp.velocidade = velocidade;
+        if(tipo is not null) montariaTemp.tipo = tipo;
 
         await _context.SaveChangesAsync();
 

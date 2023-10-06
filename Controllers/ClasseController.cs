@@ -58,7 +58,7 @@ public class ClasseController : ControllerBase
 
     [HttpPatch]
     [Route("atualizar/{nome}")]
-    public async Task<ActionResult> AtualizarClasse(string nome, [FromForm] string descricao = null, [FromForm])
+    public async Task<ActionResult> AtualizarClasse(string nome, [FromForm] string descricao = null)
     {
         if(_context is null) return NotFound();
         if(_context.Classe is null) return NotFound();
@@ -67,7 +67,7 @@ public class ClasseController : ControllerBase
 
         if(classeTemp is null) return NotFound();
 
-        if(descricao is not null) classeTemp.Classe = classe;
+        if(descricao is not null) classeTemp.descricao = descricao;
     
 
         await _context.SaveChangesAsync();
